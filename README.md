@@ -1,7 +1,7 @@
 JSMarkov
 ========
 
-A simple javascript library for markov text generation based on word-level trigraph models.
+A simple javascript library for Markov text generation based on word-level trigraph models.
 
 [Click here for a live example](http://labs.counterwave.com/jsmarkov).
 
@@ -88,3 +88,10 @@ Generate random text based on the union of models for 'input1' and 'input2', col
     <div id="output"></div>
     
     <button onClick="document.getElementById('output').innerHTML = markovTaggedText([markovModel(document.getElementById('input1').value), markovModel(document.getElementById('input2').value)], 1024);">Generate Text</button>
+
+License
+--------
+
+JSMarkov is licensed under the [MIT License][].
+
+[MIT license]: LICENSE.txt
